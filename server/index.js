@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const fetch = require("node-fetch");
 
 mongoose.Promise = global.Promise;
-mongoose.connect("");
+mongoose.connect("mongodb://user1:iamuser>@ds233212.mlab.com:33212/checkpoint1database");
 
 
 
